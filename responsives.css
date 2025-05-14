@@ -9,12 +9,10 @@
 @media screen and (max-width: 480px) {
   body {
     font-size: 0.8em; /* Reduce el tamaño de la fuente */
-  }
-  
+  }  
   main {
     max-width: 80%; /* Aumenta el ancho máximo */
   }
-
   .logo {
     height: 5vh;
   }
@@ -35,7 +33,7 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
     
   body {
-    font-size: 2em; /* Reduce el tamaño de la fuente */
+    font-size: 1em; /* Reduce el tamaño de la fuente */
   }
   
   main {

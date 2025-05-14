@@ -7,6 +7,8 @@
   <title>Título de la página</title>
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="responsives.css">
+  <link rel="stylesheet" href="desplegable.css">
+  <link rel="stylesheet" href="form.css">
   <link rel="icon" href="img/logo de prácticas - copia.png" type="image/png">
   
 </head>
@@ -16,22 +18,113 @@
   <header>
       <img src="img/logo de prácticas.png" alt="Logo de Mi sitio web" class="logo">
       <nav>
-          <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
-          </ul>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a>
+            <ul>
+              <li><a href="#">Diseño</a></li>
+              <li><a href="#">Desarrollo</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Iniciar sesión</a></li>
+          <li><a href="#">Registrarse</a></li>
+        </ul>
       </nav>
+
   </header>
 
   <main>
     <section>
+
       <h2>Sección de contenido</h2>
+
       <p>Bienvenido a nuestra página de ejemplo. Aquí aprenderás cómo estructurar un 
         sitio web con HTML y aplicar estilos básicos con CSS. Este sitio es una práctica 
         diseñada para estudiantes que están empezando en el mundo del desarrollo web. 
         ¡Explora, experimenta y diviértete mientras aprendes!</p>
+      </section>
+    
+    <section>
+      <h2>Más información</h2>
+      
+      <p>En esta sección puedes agregar más contenido relevante para tus visitantes. 
+        Puedes incluir imágenes, videos o cualquier otro tipo de información que consideres 
+        importante. Recuerda siempre mantener una buena estructura y organización en tu 
+        sitio web para facilitar la navegación.</p>
+        
+      <img src="img/panoramica.JPG" alt="Descripción de la imagen" class ="imagen">
     </section>
+    
+    <section>
+    <form action="https://formsubmit.co/tu-correo@ejemplo.com" method="POST">
+    <fieldset>
+      <legend><h2>Detalles del Pacto (tabla)</h2></legend>
+      <p>Confirma los elementos de tu pacto infernal. Todos los campos son obligatorios.</p>
+
+      <table border="1">
+        <tr>
+          <th>Elemento</th>
+          <th>Confirmación</th>
+        </tr>
+        <tr>
+          <td>Nombre en sangre</td>
+          <td><input type="text" name="nombre-sangre" required></td>
+        </tr>
+        <tr>
+          <td>Momento de entrega</td>
+          <td>
+            <select name="entrega" required>
+              <option value="">-- Selecciona --</option>
+              <option value="medianoche">Medianoche</option>
+              <option value="cuando-exhale-mi-ultimo-suspiro">Cuando exhale mi último suspiro</option>
+              <option value="lo-antes-posible">Lo antes posible</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Firma simbólica</td>
+          <td><input type="text" name="firma-simbolica" required></td>
+        </tr>
+        <tr>
+          <td>Fecha del pacto</td>
+          <td><input type="date" name="fecha" required></td>
+        </tr>
+        <tr>
+          <td>Tipo de alma ofrecida</td>
+          <td>
+            <select name="tipo-alma" required>
+              <option value="">-- Selecciona --</option>
+              <option value="inocente">Inocente</option>
+              <option value="atormentada">Atormentada</option>
+              <option value="corrupta">Corrupta</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Sellos demoníacos elegidos</td>
+          <td>
+            <label><input type="checkbox" name="sellos[]" value="sello-fuego" required> Fuego</label><br>
+            <label><input type="checkbox" name="sellos[]" value="sello-sombra"> Sombra</label><br>
+            <label><input type="checkbox" name="sellos[]" value="sello-veneno"> Veneno</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Forma del pacto</td>
+          <td>
+            <label><input type="radio" name="forma-pacto" value="escrito" required> Escrito</label><br>
+            <label><input type="radio" name="forma-pacto" value="verbal"> Verbal</label><br>
+            <label><input type="radio" name="forma-pacto" value="sangre"> Con sangre</label>
+          </td>
+        </tr>
+      </table>
+
+      <br>
+      <input type="submit" value="Enviar pacto infernal">
+    </fieldset>
+  </form>
+
+</section>
   </main>
 
   <footer>

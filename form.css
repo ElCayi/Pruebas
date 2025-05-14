@@ -1,0 +1,45 @@
+
+legend { /* Legend es el título de un fieldset */
+  font-weight: bold;
+  font-size: 1.2rem;
+  
+}
+
+table {
+  width: 100%; /* Ancho completo */
+  border-collapse: collapse;  /* Cuando tienes una tabla HTML con bordes, por defecto (border-collapse: separate), cada celda tiene su propio borde independiente, lo que puede crear un efecto de "doble borde" o espacios entre celdas. */
+  table-layout:fixed; 
+}
+
+
+th, td { 
+  padding: 1em;
+  text-align: left;
+  
+}
+
+th {  /* Encabezados de la tabla */
+  background-color: #edcdcd;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}

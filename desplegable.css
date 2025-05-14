@@ -1,0 +1,19 @@
+
+nav ul li {
+  position: relative; /* Necesario para el submenú */
+  display: inline-block; /* Cambiado a inline-block para permitir el submenú */
+  padding: 0.2em;
+}
+
+nav ul li ul {
+  display: none; /* Oculta el submenú por defecto */
+  position: absolute;  /* Posiciona el submenú */
+  background-color: #1b1b1b;
+  padding: 0.7em; 
+  margin: 0;
+}
+
+nav ul li:hover ul {
+  display: block; /* Muestra el submenú al pasar el ratón */
+}
+
