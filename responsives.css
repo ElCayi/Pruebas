@@ -7,9 +7,23 @@
 
 /* 2. Teléfonos (vertical) */
 @media screen and (max-width: 480px) {
+  body {
+    font-size: 0.8em; /* Reduce el tamaño de la fuente */
+  }
+  
+  main {
+    max-width: 80%; /* Aumenta el ancho máximo */
+  }
 
-    main {
-      max-width: 75%;
+  .logo {
+    height: 5vh;
+  }
+}
+
+/* 3. Teléfonos (horizontal) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+      font-size: 0.8em; /* Reduce el tamaño de la fuente */
     }
 
   .logo {
@@ -17,17 +31,15 @@
   }
 }
 
-/* 3. Teléfonos (horizontal) */
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  .logo {
-    height: 10vh;
-  }
-}
-
 /* 4. Tablets (vertical) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    main {
-    max-width: 75%;
+    
+  body {
+    font-size: 2em; /* Reduce el tamaño de la fuente */
+  }
+  
+  main {
+    max-width: 80%;
     }
 
   .logo {
