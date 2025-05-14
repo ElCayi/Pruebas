@@ -9,22 +9,36 @@
 @media screen and (max-width: 480px) {
 
     main {
-    max-width: 70%;
-  }
+      max-width: 75%;
+    }
 
+  .logo {
+    height: 10vh;
+  }
 }
 
 /* 3. Teléfonos (horizontal) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
-  /* Estilos aquí */
+  .logo {
+    height: 10vh;
+  }
 }
 
 /* 4. Tablets (vertical) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  /* Estilos aquí */
+    main {
+    max-width: 75%;
+    }
+
+  .logo {
+  height: 10vh;
+  }
 }
 
 /* 5. Tablets (horizontal) */
 @media screen and (min-width: 992px) and (max-width: 1299px) {
-  /* Estilos aquí */
+  .logo {
+    height: 10vh;
+  }
+
 }

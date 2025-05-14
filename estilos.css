@@ -26,7 +26,7 @@ nav ul {
   margin: 0; /* Elimina el margen por defecto */   
   display: flex; /* Flexbox para alinear horizontalmente */
   gap: 1em; /* Espacio entre los elementos. "em" en CSS, es una unidad relativa al tamaño de la fuente */
-  margin-left: 1.2em;
+  margin-left: 1em;
 }
 
 nav li a {
