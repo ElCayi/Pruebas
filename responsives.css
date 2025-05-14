@@ -1,13 +1,15 @@
 /* 1. Pantallas grandes (1300px o más) */
 @media screen and (min-width: 1300px) {
-  /* Estilos aquí */
+  body {
+    
+  }
 }
 
 /* 2. Teléfonos (vertical) */
 @media screen and (max-width: 480px) {
 
     main {
-    max-width: 80%;
+    max-width: 70%;
   }
 
 }

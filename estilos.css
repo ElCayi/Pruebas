@@ -2,18 +2,21 @@
 body {
   margin: 0; /* Elimina el margen por defecto */
   font-family: Arial, sans-serif;
+  font-size: 1em;
   background-color: #f5f5f5;
   color: #333; /* Color de texto */
   display: flex; /* Flexbox para alinear el contenido */
   flex-direction: column;
   min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
+
 }
 
 /* Cabecera */
 header {
+  font-size: 1.2em; /* Tamaño de fuente */
   background-color: #333;
   color: white;
-  padding: 1em; /* Espacio alrededor del contenido */ 
+  padding: 0.5em; /* Espacio alrededor del contenido */ 
 }
 
 /* Navegación */
@@ -23,6 +26,7 @@ nav ul {
   margin: 0; /* Elimina el margen por defecto */   
   display: flex; /* Flexbox para alinear horizontalmente */
   gap: 1em; /* Espacio entre los elementos. "em" en CSS, es una unidad relativa al tamaño de la fuente */
+  margin-left: 1.2em;
 }
 
 nav li a {
@@ -41,6 +45,7 @@ main {
   padding: 2em;
   background-color: #f5f5f5;
   left: 0 auto;
+  font-size: 1.5em;
   
 }
 
