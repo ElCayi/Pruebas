@@ -7,16 +7,17 @@
 
 /* 2. Teléfonos (vertical) */
 @media screen and (max-width: 480px) {
-  body {
+  header {
     font-size: 0.8em; /* Reduce el tamaño de la fuente */
     margin: 0; /* Elimina el margen por defecto */
     padding: 0; /* Elimina el padding por defecto */
   }  
   main {
+    font-size: 0.8em;
     max-width: 90%; /* Aumenta el ancho máximo */
   }
   .logo {
-    height: 10vh;
+    height: 7vh;
   }
   .imagen {
   max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
@@ -24,7 +25,8 @@
 
   legend { /* Legend es el título de un fieldset */
   font-weight: bold;
-  font-size: 0.2rem;
+  font-size: 0.4rem;
+  margin: center;
   
 }
 }
