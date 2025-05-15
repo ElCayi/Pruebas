@@ -9,6 +9,8 @@
 @media screen and (max-width: 480px) {
   body {
     font-size: 0.8em; /* Reduce el tamaño de la fuente */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el padding por defecto */
   }  
   main {
     max-width: 90%; /* Aumenta el ancho máximo */
@@ -22,7 +24,7 @@
 
   legend { /* Legend es el título de un fieldset */
   font-weight: bold;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   
 }
 }
