@@ -16,6 +16,9 @@
   .logo {
     height: 5vh;
   }
+  .imagen {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  }
 }
 
 /* 3. Teléfonos (horizontal) */
